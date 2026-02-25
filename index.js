@@ -19,3 +19,12 @@ console.log("My name is " + botName + " and I live on " + botLocation + ".");
 console.log("My favorite programming language is " + favoriteLanguage + ".");
 
 let codingFact = favoriteLanguage + " was created in just 10 days and has grown to become the most widely used programming language in the world!";
+console.log(codingFact);
+
+codingFact = favoriteLanguage + " is the only programming language that runs natively in web browsers.";
+console.log(codingFact);
+
+codingFact = favoriteLanguage + " supports both object-oriented and functional programming styles.";
+console.log(codingFact);
+
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
